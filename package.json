@@ -1,0 +1,63 @@
+{
+  "name": "covid-19_dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://AayushTyagi1.github.io/React-Covid-19-Dashboard",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "classnames": "^2.2.6",
+    "config": "^3.3.3",
+    "i": "^0.3.6",
+    "mapbox-gl": "^1.13.0",
+    "ml5": "^0.5.0",
+    "npm": "^6.14.9",
+    "pure-react-carousel": "^1.27.6",
+    "react": "^17.0.1",
+    "react-accordeon": "^1.1.1",
+    "react-chartjs-2": "^2.10.0",
+    "react-collapsible": "^2.8.1",
+    "react-countup": "^4.3.3",
+    "react-dark-mode-toggle": "0.0.10",
+    "react-dom": "^17.0.1",
+    "react-native-picker-select": "^8.0.2",
+    "react-popper": "^2.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "react-scroll-up-button": "^1.6.4",
+    "reactstrap": "^8.6.0",
+    "styled-components": "^5.2.1",
+    "swr": "^0.3.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
